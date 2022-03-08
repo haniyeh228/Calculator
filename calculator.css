@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+    border: 0px;
+}
+#main{
+    width: 90%;
+    margin: 10px auto;
+    max-width: 800px;
+}
+#display{
+    background-color: gray;
+    font-size: 48px;
+    padding: 10px;
+    text-align: right;
+    color: white;
+    width: 96.5%;
+}
+#buttons span{
+    width: 22%;
+    height: 60px;
+    float: left;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    border: 1px solid #ddd;
+    cursor: border;
+    transition-duration: 0.4s;
+    background-color: #ccc;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+#buttons span:hover{
+    background-color: #68a;
+}
+#buttons .btn-number{
+    background-color: #ea8;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
